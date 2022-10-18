@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do cabeçalho*/
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+/*Estilização da cabeça do site*/
+.website_head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #76b897;
+}
+
+/*estilização do logo e slogan*/
+#log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px 0px 20px;
+}
+
+/*Estilização dos links de rede social e meio de contato*/
+#link {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+#link ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    float: right;
+}
+
+#link ul li {
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid rgba(43, 42, 42, 0.76);
+    border-right-width: 4px;
+    margin: 10px;
+    padding-right: 10px;
+}
+#link ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilização do menu de acesso as pages*/
+nav {
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilização do slide principal*/
+#slide {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-size: cover;
+}
+
+#img_slide {
+    width: 100%;
+    height: 80vh;
+}
+
+#img_slide1, #img_slide2, #img_slide3, #img_slide4, #img_slide5, #img_slide6 {
+    display: none;
+}
