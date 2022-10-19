@@ -281,6 +281,8 @@ footer {
 }
 
 #map_left {
+    display: flex;
+    align-items: center;
     width: 50%;
 }
 
@@ -308,8 +310,22 @@ footer {
     width: 50%;
 }
 
+#map_right ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
+}
+
 #map_right ul li{
+    display: block;
     text-decoration: none;
+    margin: 10px;
+}
+
+#map_right ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 #dev {
