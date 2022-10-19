@@ -94,13 +94,9 @@ nav ul li a {
     width: 100%;
     justify-content: center;
     background-size: cover;
-}
-
-#img_slide {
+    background-position: 50%;
     width: 100%;
     height: 80vh;
 }
 
-#img_slide1, #img_slide2, #img_slide3, #img_slide4, #img_slide5, #img_slide6 {
-    display: none;
-}
+

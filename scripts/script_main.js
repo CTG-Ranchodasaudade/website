@@ -1,27 +1,20 @@
 
+(function sliderMovel() {
+    let countImg = 0;
+    const containerExt = document.getElementById("slide");
+    const arrayFoto = ['34_cavalgada_do_mar', 'Busca_da_chama_crioula', 'cerimonia_de_premiacao_em_cachoeirinha(2)','Cerimonia_de_premiacao_em_cachoeirinha','ENART_em_santa_cruz_do_sul','Image[4]'];
+    containerExt.style.backgroundImage=`url('../img/img_slide/34_cavalgada_do_mar.jpeg')`;
 
-(function slide(){
-    const img1= document.getElementById('img_slide1');
-    const img2 = document.getElementById('img_slide2');
-    const img3 = document.getElementById('img_slide3');
-    const img4 = document.getElementById('img_slide4');
-    const img5 = document.getElementById('img_slide5');
-    const img6 = document.getElementById('img_slide6');
-    
-    const slide= [img1,img2,img3,img4,img5,img6];
-    
-    for(let num=0; num < slide.length; num++ ){
-        console.log(slide[num]);
-        let num2 = num;
-        slide[num].style.display = 'block';
-        slide[num2].style.display = 'none';
-        
-        if(slide[num] == (slide.length)){
-            num=0;
+    setInterval(function () {
+        countImg++
+        let mudaFoto = 0;
+        if(countImg == 6) {
+            countImg = 0;
         }
+        mudaFoto = arrayFoto[countImg]
+        containerExt.style.backgroundImage=`url('../img/img_slide/${mudaFoto}.jpeg')`;
         
-        
-    }
-    
-    
+    },5000);
+   
 })();
+
