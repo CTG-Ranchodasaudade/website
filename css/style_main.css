@@ -113,8 +113,10 @@ nav ul li a {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    color: #ffffff;
+    color: #000000;
 }
+
+
 
 #artigo_top {
     display: flex;
