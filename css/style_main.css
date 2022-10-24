@@ -23,7 +23,8 @@ header{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    background-color: #76b897;
+    background-color: #b3229fb7;
+    font-family: 'Courier New', Courier, monospace,'Times New Roman', Times, serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*estilização do logo e slogan*/
