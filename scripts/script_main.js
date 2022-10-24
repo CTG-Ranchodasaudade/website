@@ -8,13 +8,13 @@
     setInterval(function () {
         countImg++
         let mudaFoto = 0;
-        if(countImg == 6) {
+        if(countImg == 5) {
             countImg = 0;
         }
         mudaFoto = arrayFoto[countImg]
         containerExt.style.backgroundImage=`url('/website/../img/img_slide/${mudaFoto}.jpg')`;
         
     },5000);
-   
+   console.log('teste imagem');
 })();
 

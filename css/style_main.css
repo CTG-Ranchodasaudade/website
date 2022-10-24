@@ -100,11 +100,7 @@ nav ul li a {
     display: flex;
     width: 90%;
     justify-content: center;
-    background-size: cover;
-    background-position: 50%;
     height: 80vh;
-
-    background-color: aqua;
 }
 
 /*Estilização dos artigos*/
