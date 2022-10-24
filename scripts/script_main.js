@@ -8,7 +8,7 @@
     setInterval(function () {
         countImg++
         let mudaFoto = 0;
-        if(countImg == 5) {
+        if(countImg == 6) {
             countImg = 0;
         }
         mudaFoto = arrayFoto[countImg]
@@ -17,4 +17,7 @@
     },5000);
    console.log('teste imagem');
 })();
+
+
+
 

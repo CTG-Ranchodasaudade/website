@@ -35,6 +35,11 @@ header{
     padding: 15px 30px 0px 20px;
 }
 
+#log h1 {
+    font-family: 'Rancho', 'Cookie', 'Harrington';
+    font-size: 2rem;
+}
+
 /*Estilização dos links de rede social e meio de contato*/
 #link {
     display: flex;
@@ -60,6 +65,8 @@ header{
 #link ul li a{
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman', 'Georgia', 'Bodoni';
+    font-size: 1rem;
 }
 
 /*Estilização do menu de acesso as pages*/
@@ -87,6 +94,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-family: 'Bodoni','Lucida Sans';
 }
 
 /*Estilização do slide principal*/
@@ -96,14 +104,19 @@ nav ul li a {
     justify-content: center;
 }
 
-#slide {
+#slider {
     display: flex;
     width: 90%;
     justify-content: center;
+    background-size: cover;
+    background-position: 50%;
     height: 80vh;
 }
 
 /*Estilização dos artigos*/
+p{
+    font-family: 'Georgia','Bodoni','Vinegar';
+}
 
 #artigo_main {
     display: flex;
@@ -113,8 +126,6 @@ nav ul li a {
     color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 
 #artigo_top {
     display: flex;
@@ -129,6 +140,10 @@ nav ul li a {
     background-color: #CF8E55;
     padding: 15px;
     
+}
+
+.apresentacao h2{
+    font-family: 'Rancho', 'Cookie', 'Harrington';
 }
 
 .img_artigo {
@@ -151,8 +166,10 @@ nav ul li a {
     width: 90%;
     justify-content: space-between;
     margin-top: 30px;
+}
 
-    background-color: #CF8E55;
+#artigo_bottom h2, h3 {
+    font-family: 'Rancho', 'Cookie', 'Harrington';
 }
 
 #artigo_left{
@@ -178,6 +195,7 @@ nav ul li a {
     flex-direction: column;
     padding: 20px;
 }
+
 
 .right_categoria {
     display: flex;
@@ -206,6 +224,9 @@ nav ul li a {
     justify-content: center;
     background-color: #76b897;
     margin: 30px 0 20px 0;
+    background-image: url('../img/imagem\ do\ início.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section_intitutional_video {
@@ -234,16 +255,120 @@ nav ul li a {
     text-align: center;
 }
 
-#prizes_figure {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    
+  /* Slider */
+  
+.slick-slide {
+    margin: 0px 20px;
 }
-
-#prizes_figure figure {
-    width: 30%;
-    height: 80px;
+  
+.slick-slide img {
+    width: 100%;
+}
+  
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+  .slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+  
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+  
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+  
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+  [dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
 }
 
 /*Estilização da area de rodapé*/ 
