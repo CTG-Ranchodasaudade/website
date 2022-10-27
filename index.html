@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_main.css">
+    <!-- Estilização principal-->
+    
+    <link rel="stylesheet" href="assets/css/style_main.css">
+    <!--Estilização responsividade-->
+    <link rel="stylesheet" href="assets/css/responsiveness.css">
+    <!-- Estilização Jquery-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 
@@ -16,7 +21,7 @@
             <section class="website_head">
                 <section id="log">
                     <figure>
-                        <img src="img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                        <img src="assets/img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
                     </figure>
                     <h1>
                         Rancho da Saudade
@@ -24,20 +29,33 @@
                 </section>
                 <section id="link">
                     <ul>
-                        <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">@ranchodasaudade</a></li>
-                        <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">ctgranchodasaudade</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">CTG Rancho da Saudade - Oficial</a></li>
-                        <li><a href="" target="_blank"><img src="img/icones_redes_contato/whatsapp_icon.png" alt="">119xxxxxxxx</a></li>
+                        <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="assets/img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">
+                            <p class="name-link">@ranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="assets/img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">
+                            <p class="name-link">ctgranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="assets/img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">
+                            <p class="name-link">CTG Rancho da Saudade - Oficial</p>
+                        </a></li>
+                        <li><a href="" target="_blank"><img src="assets/img/icones_redes_contato/whatsapp_icon.png" alt="">
+                            <p class="name-link">119xxxxxxxx</p>
+                        </a></li>
                     </ul>
                 </section>
             </section>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Trabalhos</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
+                <input type="checkbox" id="menuResp">
+                <label for="menuResp"><img id="iconResp" src="assets/img/menu_resp_fechado_32x32.png" alt="iconResp"></label>
+                
+                <div id="cx_nav">
+                    <ul id="menuSupense">
+                        <li class="menu"><a href="index.html">Home</a></li>
+                        <li class="menu"><a href="">Sobre</a></li>
+                        <li class="menu"><a href="">Trabalhos</a></li>
+                        <li class="menu"><a href="">Contato</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section>
@@ -52,34 +70,34 @@
             <section id="artigo_main">
                 <section id="artigo_top">
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img3.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img3.jpg" alt=""></figure>
                         <h2>Um pouco Sobre nós</h2>
                         <p>O movimento tradicionalista gaúcho caracteriza-se pela valorização da cultura gaúcha, o resgate dos valores inerentes ao homem do campo e a potencialização de atividades artísticas e grupos de dança. Suas estruturas fomentam o intercâmbio de distintos Centros e Movimentos distribuídos em diversas regiões do estado do Rio Grande do Sul e de todo o Brasil, dentre esses grupos está o CTG Rancho da Saudade.</p>    
                     </section>
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img2.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img2.jpg" alt=""></figure>
                         <h2>Patrões</h2>
                         <p>O CTG Rancho da Saudade já teve diversos patrões. A 1ª patronagem foi eleita em 1986, em que o Sr. Telmo Silveira Dorneles foi eleito patrão. O patrão, cargo que administra a instituição, é eleito pelos membros a cada dois anos. O patrão atual é o Senhor Tauner Machado, que foi eleito em 2016 e tem sido reeleito desde então.</p>    
                     </section>
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img3.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img3.jpg" alt=""></figure>
                         <h2>Festival Internacional</h2>
                         <p>No ano de 2011, o CTG Rancho da Saudade foi convidado para representar a América do Sul no Festival Internacional de Folclore de Gannat, na França o ″Les Cultures Du Monde″, um dos mais importantes festivais de folclore do mundo. Na ocasião, "Os Provincianos" também representaram o Brasil em outros festivais menores, como o Cour Du Soir, em Cusset, tendo realizado uma belíssima apresentação em frente à um castelo milenar, no festival da cidade de Cosne D'Allier, e no festival de Saint-Laurent, em Blain, um dos mais antigos da Europa, com 136 edições realizadas em 2011.</p>    
                     </section>
                 </section>
                 <section id="artigo_bottom">
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img3.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img3.jpg" alt=""></figure>
                         <h2>Um pouco Sobre nós</h2>
                         <p>O movimento tradicionalista gaúcho caracteriza-se pela valorização da cultura gaúcha, o resgate dos valores inerentes ao homem do campo e a potencialização de atividades artísticas e grupos de dança. Suas estruturas fomentam o intercâmbio de distintos Centros e Movimentos distribuídos em diversas regiões do estado do Rio Grande do Sul e de todo o Brasil, dentre esses grupos está o CTG Rancho da Saudade.</p>    
                     </section>
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img2.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img2.jpg" alt=""></figure>
                         <h2>Patrões</h2>
                         <p>O CTG Rancho da Saudade já teve diversos patrões. A 1ª patronagem foi eleita em 1986, em que o Sr. Telmo Silveira Dorneles foi eleito patrão. O patrão, cargo que administra a instituição, é eleito pelos membros a cada dois anos. O patrão atual é o Senhor Tauner Machado, que foi eleito em 2016 e tem sido reeleito desde então.</p>    
                     </section>
                     <section class="apresentacao">
-                        <figure><img class="img_artigo" src="img/section_artigos/img3.jpg" alt=""></figure>
+                        <figure><img class="img_artigo" src="assets/img/section_artigos/img3.jpg" alt=""></figure>
                         <h2>Festival Internacional</h2>
                         <p>No ano de 2011, o CTG Rancho da Saudade foi convidado para representar a América do Sul no Festival Internacional de Folclore de Gannat, na França o ″Les Cultures Du Monde″, um dos mais importantes festivais de folclore do mundo. Na ocasião, "Os Provincianos" também representaram o Brasil em outros festivais menores, como o Cour Du Soir, em Cusset, tendo realizado uma belíssima apresentação em frente à um castelo milenar, no festival da cidade de Cosne D'Allier, e no festival de Saint-Laurent, em Blain, um dos mais antigos da Europa, com 136 edições realizadas em 2011.</p>    
                     </section>
@@ -98,31 +116,31 @@
                 <h2>Prêmios</h2>
                 <section class="customer-logos slider">
                     <div class="slide">
-                        <img src="img/section_artigos/img1.jpg">
+                        <img src="assets/img/section_artigos/img1.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img2.jpg">
+                        <img src="assets/img/section_artigos/img2.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img3.jpg">
+                        <img src="assets/img/section_artigos/img3.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img4.jpg">
+                        <img src="assets/img/section_artigos/img4.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img5.jpg">
+                        <img src="assets/img/section_artigos/img5.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img6.jpg">
+                        <img src="assets/img/section_artigos/img6.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img7.jpg">
+                        <img src="assets/img/section_artigos/img7.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img8.jpg">
+                        <img src="assets/img/section_artigos/img8.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/section_artigos/img9.jpg">
+                        <img src="assets/img/section_artigos/img9.jpg">
                     </div>
                 </section>
             </section>
@@ -133,7 +151,7 @@
             <section id="footer_sub">
                 <sectio id="logo_baseborad">
                     <figure>
-                        <img src="img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                        <img src="assets/img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
                     </figure>
                 </sectio>
                 <section id="map_website">
@@ -147,10 +165,10 @@
                     </section>
                     <section id="map_right">
                         <ul>
-                            <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">@ranchodasaudade</a></li>
-                            <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">ctgranchodasaudade</a></li>
-                            <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">CTG Rancho da Saudade - Oficial</a></li>
-                            <li><a href="" target="_blank"><img src="img/icones_redes_contato/whatsapp_icon.png" alt="">119xxxxxxxx</a></li>
+                            <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="assets/img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">@ranchodasaudade</a></li>
+                            <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="assets/img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">ctgranchodasaudade</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="assets/img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">CTG Rancho da Saudade - Oficial</a></li>
+                            <li><a href="" target="_blank"><img src="assets/img/icones_redes_contato/whatsapp_icon.png" alt="">119xxxxxxxx</a></li>
                         </ul>
                     </section>
                 </section>
@@ -166,7 +184,7 @@
     <!------ Include the above in your HEAD tag ---------->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="scripts/script_main.js" type="text/javascript"></script>
-    <script src="scripts/carrossel.js" type="text/javascript"></script>
+    <script src="assets/scripts/script_main.js" type="text/javascript"></script>
+    <script src="assets/scripts/carrossel.js" type="text/javascript"></script>
 </body>
 </html>

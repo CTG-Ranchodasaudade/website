@@ -15,6 +15,7 @@ header{
     display: flex;
     width: 100%;
     flex-direction: column;
+    background-image: linear-gradient(#76b897, transparent);
 }
 
 /*Estilização da cabeça do site*/
@@ -23,8 +24,7 @@ header{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    background-color: #76b897;
-    font-family: 'Courier New', Courier, monospace,'Times New Roman', Times, serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 /*estilização do logo e slogan*/
@@ -70,9 +70,18 @@ header{
 }
 
 /*Estilização do menu de acesso as pages*/
+#menuResp {
+    display: none;
+}
+
+#iconResp {
+    display: none;
+}
+
 nav {
     display: block;
     width: 100%;
+    top: 80px;
 }
 
 nav ul {
@@ -97,6 +106,13 @@ nav ul li a {
     font-family: 'Bodoni','Lucida Sans';
 }
 
+.FixoNoTopo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #76b897;
+}
+
 /*Estilização do slide principal*/
 #container_slide {
     display: flex;
@@ -111,6 +127,8 @@ nav ul li a {
     background-size: cover;
     background-position: 50%;
     height: 80vh;
+    margin-top: 180px;
+    background-color: #CF8E55;
 }
 
 /*Estilização dos artigos*/
@@ -241,6 +259,7 @@ p{
 #prizes {
     display: flex;
     flex-direction: column;
+    position: sticky;
     width: 100%;
     height: 280px;
     background-color: #ffffff;
@@ -376,6 +395,9 @@ footer {
     display: flex;
     flex-direction: column;
     border-top: 2px solid rgb(129, 128, 128);
+    background-image: url('../img/imagem\ do\ início.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #footer_sub{
@@ -430,6 +452,8 @@ footer {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    font-family: 'Bodoni','Lucida Sans';
+    font-weight: 400;
 }
 
 #map_right{
@@ -452,6 +476,7 @@ footer {
 #map_right ul li a {
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman','Georgia','Bodoni';
 }
 
 #dev {
