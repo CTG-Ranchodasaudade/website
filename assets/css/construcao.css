@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0;
 }
+main {
+    display: none;
+}
 
 section {
     display: flex;
@@ -58,5 +61,9 @@ button{
         position: relative;
         margin-top: 60px;
         left: 0px;
+    }
+
+    main{ 
+        display: none;
     }
 }
