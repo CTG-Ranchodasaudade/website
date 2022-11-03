@@ -1,0 +1,52 @@
+@charset "UTF-8";
+#principal{
+    width: 100%;
+}
+
+#principal h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Rancho, Cookie, Harrington;
+    background-color: #CF8E55;
+    font-size: 2rem;
+    color: white;
+    padding: 40px 0px ;
+}
+
+.invernadas-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #CF8E55;
+    text-indent: 20px;
+}
+
+.invernadas-top h2{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CF8E55;
+    background-color: white;
+    padding: 10px 0 20px 0;
+    font-family: Rancho, Cookie, Harrington;
+}
+
+.conteudo {
+    font-family: Geordia, Bodoni, Vinegar;
+    font-size: 1.3rem;
+    line-height: 40px;
+    color: white;
+    padding: 30px 20px;
+    text-align: justify;
+}
+
+.premiacao {
+    text-indent: 8%;
+}
+
+.invernadas-Bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../img/');
+}

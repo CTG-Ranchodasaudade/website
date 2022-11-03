@@ -18,20 +18,7 @@ function fixarMenuNoTopo(){
     }
 }
 
-const menuFloat = document.getElementsByClassName("menu");
-const identificaURL = window.location.href
 
-console.log(identificaURL, menuFloat);
-
-(function(identificaURL){
-    if(identificaURL == "http://127.0.0.1:5501/index.html"){
-       return menuFloat.style.backgroundImage="red";
-    }else {
-       return menuFloat.style.backgroundImage="none";
-    }
-
-
-})();
 
 /* ação do menu responsivo */
 
@@ -52,7 +39,7 @@ function abreFechaMenu(){
     let countImg = 0;
     const containerExt = document.getElementById("slide");
     const arrayFoto = ['34_cavalgada_do_mar', 'Busca_da_chama_crioula', 'cerimonia_de_premiacao_em_cachoeirinha(2)','Cerimonia_de_premiacao_em_cachoeirinha','ENART_em_santa_cruz_do_sul','Image[4]'];
-    containerExt.style.backgroundImage=`url('/website/../img/img_slide/34_cavalgada_do_mar.jpg')`;
+    containerExt.style.backgroundImage=`url('../img/img_slide/34_cavalgada_do_mar.jpg')`;
 
     setInterval(function () {
         countImg++
@@ -61,7 +48,7 @@ function abreFechaMenu(){
             countImg = 0;
         }
         mudaFoto = arrayFoto[countImg]
-        containerExt.style.backgroundImage=`url('/website/../img/img_slide/${mudaFoto}.jpg')`;
+        containerExt.style.backgroundImage=`url('../img/img_slide/${mudaFoto}.jpg')`;
         
     },5000);
    console.log('teste imagem');

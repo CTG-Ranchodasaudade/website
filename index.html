@@ -52,9 +52,13 @@
                     <ul id="menuSupense">
                         <li class="menu"><a href="index.html">Home</a></li>
                         <li class="menu"><a href="assets/pages/about.html">Sobre</a></li>
-                        <li class="menu"><a href="assets/pages/dp1.html">Departamento1</a></li>
-                        <li class="menu"><a href="assets/pages/dp2.html">Departamento2</a></li>
-                        <li class="menu"><a href="assets/pages/dp3.html">Departamento3</a></li>
+                        <li class="menu" id="abrir-sub" onclick="abreMenu()" ><a href="">Departamentos</a>
+                            <ul id="menu-escondido">
+                                <li class="sub-menu"><a href="assets/pages/artistica.html">Artístico</a></li>
+                                <li class="sub-menu"><a href="assets/pages/campeira.html">Campeiro</a></li>
+                                <li class="sub-menu"> <a href="assets/pages/cultural.html">Cultural</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -187,5 +191,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="assets/scripts/script_main.js" type="text/javascript"></script>
     <script src="assets/scripts/carrossel.js" type="text/javascript"></script>
+    <script src="teste.js"></script>
 </body>
 </html>

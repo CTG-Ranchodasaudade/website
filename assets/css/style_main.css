@@ -113,6 +113,29 @@ nav ul li a {
     background-color: #76b897;
 }
 
+/*estilização do submenu */
+#abrir-sub{
+    display: flex;
+    flex-direction: column;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #e66e05;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub-menu a:hover {
+    display: block;
+}
+
 /*Estilização do slide principal*/
 #container_slide {
     display: flex;
@@ -127,7 +150,7 @@ nav ul li a {
     background-size: cover;
     background-position: 50%;
     height: 80vh;
-    margin-top: 180px;
+    margin-top: 0px;
     background-color: #CF8E55;
 }
 
