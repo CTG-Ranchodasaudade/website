@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Estilização principal-->
-    
     <link rel="stylesheet" href="../css/style_main.css">
     <link rel="stylesheet" href="../css/departamentos.css">
     <!--<link rel="stylesheet" href="../css/construcao.css">-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Departamento Artístico</title>
 </head>
 <body>
@@ -69,6 +69,7 @@
         </header>
         <section id="principal">
             <h1>Departamento Artistico</h1>
+            <!--Parte das invernadas adultas-->
             <section class="invernadas-top">
                 <h2>Invernada Adulta</h2>
                 <section class="conteudo">
@@ -113,58 +114,371 @@
                     </p>
                 </section>
             </section>
-            <section class="invernadas-Bottom">
+            <section class="invernadas-Bottom background-adulto">
+                
                 <h2>Prêmios Adulto</h2>
-                <section id="prizes">
-                    <h2>Prêmios</h2>
-                    <section class="customer-logos slider">
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img1.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img2.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img3.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img4.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img5.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img6.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img7.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img8.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/img/section_artigos/img9.jpg">
-                        </div>
+                <section id="prizes-years">
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img3.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img6.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img7.jpg" alt="">
+                    </figure>
+                </section>
+                
+                <h2>Coordenação Adulta</h2>
+                <section class="coordination">
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img1.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img2.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img3.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
                     </section>
                 </section>
-                <h2>Coordenação Adulta</h2>
-                <section>
-                    <figure>
-                        <img src="../img/section_artigos/img1.jpg" alt="">
+                
+            </section>
+            <section class="galery">
+                <h3>Galeria</h3>
+                <section class="galery-photos">
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta.jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta _(1).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta_(2).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta_(3).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta_(4).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_adulta/invernada_adulta_(5).jpg" alt="">
                     </figure>
                 </section>
-                <section>
+            </section>
+        </section>
+
+        <!--Parte das invernadas Veteranos-->
+            <section class="invernadas-top">
+                <h2>Invernada Veterana</h2>
+                <section class="conteudo">
+                    <p>A Invernada Veterana do Rancho é formada basicamente pela Velha Guarda Provinciana. Muitos de seus dançarinos já passaram pela Invernada Adulta e estão há muitos anos em nossa casa.</p>
+                    <p>O grupo é o atual campeão do Festxiruanos, evento promovido pela 1ª RT.</p>
+                    <p>Em suas participações no Festxiru, em Santa Maria, considerado como o Estadual de Danças da Categoria, tivemos grandes conquistas ao longo de nossa história....</p>
+                    <p class="premiacao">• Vice campeã Festxiru – 2012, 2019</p>
+                    <p class="premiacao">• Melhor entrada e saída Festxiru – 2012</p>
+                    <p class="premiacao">• Campeã Festxiru – 2013</p>
+                    <p class="premiacao">• Campeã Rodeio Internacional do Mercosul – 2013</p>
+                    <p class="premiacao">• Campeã Sarau de Arte Gaúcha – 2013, 2018</p>
+                    <p class="premiacao">• Campeã Rodeio de Caxias do Sul – 2013</p>
+                    <p class="premiacao">• Campeã Rodeio Campo bom – 2013</p>
+                    <p class="premiacao">• Campeão Nacional Categoria Veterana – 2015</p>
+                    <p class="premiacao">• Campeã Rodeio Pealo Saudade – 2017</p>
+                    <p class="premiacao">• Campeã Rodeio Chama Nativa – 2017</p>
+                    <p class="premiacao">• Campeã Rodeio Ronda Crioula de Cachoeirinha – 2019</p>
+                    <p class="premiacao">• Campeã Rodeio Capão da Canoa – 2022</p>
+                    <p class="premiacao">• Campeã Festxiruanos – 2022</p>
+                    <p class="premiacao">• Vice campeã Sarau de Artes Gaúcha – 2012</p>
+                    <p class="premiacao">• Vice campeã Rodeio Internacional do Mercosul – 2014</p>
+                    <p class="premiacao">• Vice campeã Rodeio Internacional de Osório – 2016, 2018</p>
+                    <p class="premiacao">• 3º lugar Rodeio Internacional do Mercosul – 2016</p>
+                    <p class="premiacao">• 3° Lugar Festxiru – 2014, 2016, 2018</p>
+                    <p class="premiacao">• 3° Lugar Rodeio Internacional de Osório – 2013</p>
+                    
+                </section>
+            </section>
+            <section class="invernadas-Bottom background-veterano">
+                
+                <h2>Prêmios Veteranos</h2>
+                <section id="prizes-years">
                     <figure>
-                        <img src="../img/section_artigos/img2.jpg" alt="">
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img3.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img6.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img7.jpg" alt="">
                     </figure>
                 </section>
-                <section>
+                
+                <h2>Coordenação Veteranos</h2>
+                <section class="coordination">
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img1.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img2.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img3.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                </section>
+                
+            </section>
+            <section class="galery">
+                <h3>Galeria</h3>
+                <section class="galery-photos">
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_veterana/invernada veterana.jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_veterana/invernada veterana (1).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_veterana/invernada veterana (2).jpg" alt="">
+                    </figure>
+                    </figure>
+                </section>
+            </section>
+
+        <!--Parte das invernadas Juvenil-->    
+
+            <section class="invernadas-top">
+                <h2>Invernada Juvenil</h2>
+                <section class="conteudo">
+                    <p>A Invernada Juvenil do Rancho é a sequência para os dançarinos da Invernada Mirim.</p>
+                    <p>De 14 a 17 anos, os jovens tradicionalistas participam desta categoria, e em sua vitalidade, conquistam feitos históricos para o Rancho.</p>
+                    <p>Em 2002 iniciou suas participações no JuvEnart, considerado o Estadual de Danças da Categoria, que ocorre anualmente em Santa Maria. Em 2017 e 2019, o grupo se consagrou campeão do evento, carregando consigo o título de Bicampeão Estadual Juvenil.</p>
+                    <p class="premiacao">A invernada Juvenil é heptacampeã do Festinil, evento promovido pela 1ª RT.</p>
+                    <p class="premiacao">• Campeã Juvenart 2017</p>
+                    <p class="premiacao">• Campeã Juvenart 2019</p>
+                    <p class="premiacao">• Campeã Rodeio 35 CTG 2022</p>
+                    <p class="premiacao">• Campeã Rodeio Encantado 2019</p>
+                    <p class="premiacao">• Campeã Rodeio Campo Verde 2016 e 2020</p>
+                    <p class="premiacao">• Heptacampeã Festinil – 1ª RT</p>
+                    <p class="premiacao">• Campeã Sarau de Arte Gaúcha 2016 e 2022</p>
+                    <p class="premiacao">• Bicampeã Rodeio Estância Velha 2018 e 2019</p>
+                    <p class="premiacao">• Vice-campeã Juvenart 2016 e 2018</p>
+                    <p class="premiacao">• 3º lugar Juvenart 2022</p>                    
+                </section>
+            </section>
+            <section class="invernadas-Bottom background-veterano">
+                
+                <h2>Prêmios Juvenil</h2>
+                <section id="prizes-years">
                     <figure>
-                        <img src="../img/section_artigos/img3.jpg" alt="">
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img3.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img6.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img7.jpg" alt="">
+                    </figure>
+                </section>
+                
+                <h2>Coordenação Juvenil</h2>
+                <section class="coordination">
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img1.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img2.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img3.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                </section>
+                
+            </section>
+            <section class="galery">
+                <h3>Galeria</h3>
+                <section class="galery-photos">
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/Juvenil.jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (2).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (3).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (4).jpg" alt="">
+                    </figure>
+                    </figure>
+                </section>
+            </section>
+
+            <!--Parte das invernadas Mirim-->      obs falta editar
+
+            <section class="invernadas-top">
+                <h2>Invernada Mirim</h2>
+                <section class="conteudo">
+                    <p>A Invernada Juvenil do Rancho é a sequência para os dançarinos da Invernada Mirim.</p>
+                    <p>De 14 a 17 anos, os jovens tradicionalistas participam desta categoria, e em sua vitalidade, conquistam feitos históricos para o Rancho.</p>
+                    <p>Em 2002 iniciou suas participações no JuvEnart, considerado o Estadual de Danças da Categoria, que ocorre anualmente em Santa Maria. Em 2017 e 2019, o grupo se consagrou campeão do evento, carregando consigo o título de Bicampeão Estadual Juvenil.</p>
+                    <p class="premiacao">A invernada Juvenil é heptacampeã do Festinil, evento promovido pela 1ª RT.</p>
+                    <p class="premiacao">• Campeã Juvenart 2017</p>
+                    <p class="premiacao">• Campeã Juvenart 2019</p>
+                    <p class="premiacao">• Campeã Rodeio 35 CTG 2022</p>
+                    <p class="premiacao">• Campeã Rodeio Encantado 2019</p>
+                    <p class="premiacao">• Campeã Rodeio Campo Verde 2016 e 2020</p>
+                    <p class="premiacao">• Heptacampeã Festinil – 1ª RT</p>
+                    <p class="premiacao">• Campeã Sarau de Arte Gaúcha 2016 e 2022</p>
+                    <p class="premiacao">• Bicampeã Rodeio Estância Velha 2018 e 2019</p>
+                    <p class="premiacao">• Vice-campeã Juvenart 2016 e 2018</p>
+                    <p class="premiacao">• 3º lugar Juvenart 2022</p>                    
+                </section>
+            </section>
+            <section class="invernadas-Bottom background-veterano">
+                
+                <h2>Prêmios Juvenil</h2>
+                <section id="prizes-years">
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img3.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img6.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img7.jpg" alt="">
+                    </figure>
+                </section>
+                
+                <h2>Coordenação Juvenil</h2>
+                <section class="coordination">
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img1.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img2.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img3.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                </section>
+                
+            </section>
+            <section class="galery">
+                <h3>Galeria</h3>
+                <section class="galery-photos">
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/Juvenil.jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (2).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (3).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_artístico/invernada_juvenil/invernada juvenil (4).jpg" alt="">
+                    </figure>
                     </figure>
                 </section>
             </section>
         </section>
     </main>
+
+    <script src="../scripts/carrossel.js" type="text/javascript"></script>
+    <script src="../scripts/script_main.js" type="text/javascript"></script>
 </body>
 </html>

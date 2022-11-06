@@ -48,5 +48,107 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url('../img/');
+    
+}
+
+.background-adulto {
+    background-image: url('../img/departamentos/departamento_artístico/invernada_adulta/invernada\ adulta\ -\ verde.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.invernadas-Bottom h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+#prizes-years {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-self: center;
+}
+
+#prizes-years figure{
+    width: 100%;
+}
+
+.prizes-years-slogan {
+    width: 50%;
+}
+
+.coordination{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin: 0px 20px 20px 20px;
+}
+
+.coordination img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.coordination h4{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.coordination p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.coordinators {
+    display: block;
+    margin: 0px 30px;
+    width: 20%;
+    background-color: #CF8E55;
+    border-radius: 50% 50% 10px 10px;
+}
+
+.galery{
+    display: grid;
+    width: 100%;
+}
+
+.galery h3{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0 20px 0;
+}
+
+.galery-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.galery-frame{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.galery-img{
+    display: block;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.background-veterano{
+    background-image: url('../img/departamentos/departamento_artístico/invernada_veterana/imagem\ do\ início.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
