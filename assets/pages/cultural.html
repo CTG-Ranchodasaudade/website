@@ -10,6 +10,8 @@
 </head>
 <body>
     <main>
+        <a href="" target="_blank" id="icone_whatsapp"><img src="../img/icones_redes_contato/whatsapp.png" alt="">
+        </a>
         <header>
             <section class="website_head">
                 <section id="log">
@@ -31,9 +33,7 @@
                         <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="../img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">
                             <p class="name-link">CTG Rancho da Saudade - Oficial</p>
                         </a></li>
-                        <li><a href="" target="_blank"><img src=../img/icones_redes_contato/whatsapp_icon.png" alt="">
-                            <p class="name-link">119xxxxxxxx</p>
-                        </a></li>
+                        
                     </ul>
                 </section>
             </section>
@@ -44,12 +44,12 @@
                 <div id="cx_nav">
                     <ul id="menuSupense">
                         <li class="menu"><a href="../../index.html">Home</a></li>
-                        <li class="menu"><a href="../pages/about.html">Sobre</a></li>
-                        <li class="menu" id="abrir-sub" onclick="abreMenu()" ><a href="">Departamentos</a>
+                        <li class="menu" ><a href="about.html">Sobre</a></li>
+                        <li class="menu" id="abrir-sub" onclick="abreMenu_escondido()" style="background-color: #76b897">Departamentos<div id="seta"></div>
                             <ul id="menu-escondido">
                                 <li class="sub-menu"><a href="artistica.html">Artístico</a></li>
-                                <li class="sub-menu"><a href="#">Campeiro</a></li>
-                                <li class="sub-menu"> <a href="cultural.html">Cultural</a></li>
+                                <li class="sub-menu"><a href="campeira.html">Campeiro</a></li>
+                                <li class="sub-menu"> <a href="#">Cultural</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -145,13 +145,13 @@
                 <section id="map_website">
                     <section id="map_left">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="../../index.html">Home</a></li>
                             <li><a href="about.html">Sobre</a></li>
                             <ul>
                                 <p class="menu_sem_action">Departamentos<p>
                                 <li class="sub-menu-inferior"><a href="artistica.html">Artístico</a></li>
-                                <li class="sub-menu-inferior"><a href="#">Campeiro</a></li>
-                                <li class="sub-menu-inferior"><a href="cultural.html">Cultural</a></li>
+                                <li class="sub-menu-inferior"><a href="campeira.html">Campeiro</a></li>
+                                <li class="sub-menu-inferior"><a href="#">Cultural</a></li>
                             </ul>
                         </ul>
                     </section>
@@ -171,5 +171,7 @@
             </section>
         </footer>
     </main>
+
+    <script src="../scripts/script_main.js"></script>
 </body>
 </html>

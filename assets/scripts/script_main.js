@@ -33,6 +33,25 @@ function abreFechaMenu(){
 
 }
 
+/* ação do submenu */
+const submenu = document.getElementById('menu-escondido');
+const setaMenu = document.getElementById('seta');
+let estado = 0;
+submenu.style.display="none";
+
+function abreMenu_escondido() {
+    
+    if(estado == 0){
+        submenu.style.display="flex";
+        setaMenu.style.transform='rotate(135deg)';
+        estado = 1;
+    } else {
+        submenu.style.display="none";
+        setaMenu.style.transform='rotate(45deg)';
+        estado = 0;
+    }
+}
+
 
 /* Implementação da movimentação do slide principal */
 (function sliderMovel() {
@@ -53,6 +72,7 @@ function abreFechaMenu(){
     },5000);
    console.log('teste imagem');
 })();
+
 
 
 

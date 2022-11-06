@@ -15,7 +15,6 @@ header{
     display: flex;
     width: 100%;
     flex-direction: column;
-    background-image: linear-gradient(#76b897, transparent);
 }
 
 /*Estilização da cabeça do site*/
@@ -24,7 +23,7 @@ header{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    
+    background-color: #76b897;
 }
 
 /*estilização do logo e slogan*/
@@ -37,7 +36,8 @@ header{
 
 #log h1 {
     font-family: 'Rancho', 'Cookie', 'Harrington';
-    font-size: 2rem;
+    font-size: 4rem;
+    color: #ffffff;
 }
 
 /*Estilização dos links de rede social e meio de contato*/
@@ -119,22 +119,28 @@ nav ul li a {
     flex-direction: column;
 }
 .menu ul{
+    width: 150px;
     display: flex;
     flex-direction: column;
-    background-color: #e66e05;
+    background-color: #76b897;
     position: absolute;
     margin-top: 30px;
 }
 
-.sub-menu {
-    display: flex;
-    flex-direction: column;
-    
+.menu-escondido {
+    display: none;
+    flex-direction: column;   
 }
 
-.sub-menu a:hover {
-    display: block;
-}
+#seta {
+    position: absolute;
+    padding: 7px;
+    box-shadow: -3px 2px 0 1px #e66e05 inset;
+    border: solid transparent;
+    border-width: 0 0 0.2px 0.2px;
+    transform: rotate(45deg);
+    right: 2.5%;
+  }
 
 /*Estilização do slide principal*/
 #container_slide {
@@ -522,5 +528,15 @@ footer {
 
 .sub-menu-inferior{
     display: block;
+}
 
+#abrir-sub{
+    cursor: pointer;
+}
+
+#icone_whatsapp {
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }

@@ -84,7 +84,7 @@
 .coordination{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vh;
     justify-content: center;
     margin: 0px 20px 20px 20px;
 }
