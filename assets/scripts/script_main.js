@@ -56,18 +56,18 @@ function abreMenu_escondido() {
 /* Implementação da movimentação do slide principal */
 (function sliderMovel() {
     let countImg = 0;
-    const containerExt = document.getElementById("slide");
-    const arrayFoto = ['34_cavalgada_do_mar', 'Busca_da_chama_crioula', 'cerimonia_de_premiacao_em_cachoeirinha(2)','Cerimonia_de_premiacao_em_cachoeirinha','ENART_em_santa_cruz_do_sul','Image[4]'];
-    containerExt.style.backgroundImage=`url('../img/img_slide/34_cavalgada_do_mar.jpg')`;
+    const containerExt = document.getElementsByClassName('slider')[0];
+    const arrayFoto = ['34_cavalgada_do_mar', 'Busca_da_chama_crioula', 'cerimonia_de_premiacao_em_cachoeirinha(2)','Cerimonia_de_premiacao_em_cachoeirinha','ENART_em_santa_cruz_do_sul','Invernada mirim', 'invernada-todos', 'pre invernada veterana'];
+    containerExt.style.backgroundImage=`url('assets/img/img_slide/invernada-todos.jpg')`
 
     setInterval(function () {
         countImg++
         let mudaFoto = 0;
-        if(countImg == 6) {
+        if(countImg == 8) {
             countImg = 0;
         }
         mudaFoto = arrayFoto[countImg]
-        containerExt.style.backgroundImage=`url('../img/img_slide/${mudaFoto}.jpg')`;
+        containerExt.style.backgroundImage=`url('assets/img/img_slide/${mudaFoto}.jpg')`;
         
     },5000);
    console.log('teste imagem');
