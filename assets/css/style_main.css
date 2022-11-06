@@ -462,7 +462,6 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     float: left;
-
 }
 
 #map_left ul li {
@@ -507,4 +506,21 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 15px;
+}
+
+.menu_sem_action {
+    cursor: pointer;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub-menu-inferior {
+    margin-left: 30px;
+
+}
+
+.sub-menu-inferior{
+    display: block;
+
 }

@@ -4,17 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/construcao.css">
+    <link rel="stylesheet" href="../css/style_main.css">
+    <link rel="stylesheet" href="../css/history.css">
     <title>Document</title>
 </head>
 <body>
     
-    <section>
-        <figure>
-            <img src="../img/construcao.png" alt="area em construção">
-        </figure>
-        <a href="../../index.html"><button value="Voltar" type="button" onclick="">Voltar</button></a>
-    </section>
+    <main>
+        <header>
+            <section class="website_head">
+                <section id="log">
+                    <figure>
+                        <img src="../img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                    </figure>
+                    <h1>
+                        Rancho da Saudade
+                    </h1>
+                </section>
+                <section id="link">
+                    <ul>
+                        <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">
+                            <p class="name-link">@ranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">
+                            <p class="name-link">ctgranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="../img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">
+                            <p class="name-link">CTG Rancho da Saudade - Oficial</p>
+                        </a></li>
+                        <li><a href="" target="_blank"><img src=../img/icones_redes_contato/whatsapp_icon.png" alt="">
+                            <p class="name-link">119xxxxxxxx</p>
+                        </a></li>
+                    </ul>
+                </section>
+            </section>
+            <nav>
+                <input type="checkbox" id="menuResp">
+                <label for="menuResp"><img id="iconResp" src="../img/menu_resp_fechado_32x32.png" alt="iconResp"></label>
+                
+                <div id="cx_nav">
+                    <ul id="menuSupense">
+                        <li class="menu"><a href="../../index.html">Home</a></li>
+                        <li class="menu"><a href="../pages/about.html">Sobre</a></li>
+                        <li class="menu" id="abrir-sub" onclick="abreMenu()" ><a href="">Departamentos</a>
+                            <ul id="menu-escondido">
+                                <li class="sub-menu"><a href="#">Artístico</a></li>
+                                <li class="sub-menu"><a href="campeira.html">Campeiro</a></li>
+                                <li class="sub-menu"> <a href="cultural.html">Cultural</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="content-main">
+            <section id="history">
+                <h2>Nossa história</h2>
+                <p>Em setembro de 1986, na Semana Farroupilha, um grupo de amigos, admiradores do tradicionalismo, uniram seus esforços para criarem um CTG no município de Cachoeirinha. Depois de algumas tratativas, achou-se por bem apoiar um CTG já fundado. Logo, após entrar em contato com os CTGs Mãe Crioula e Guapos da Amizade, decidiu-se apoiar o CTG Guapos da Amizade.</p>
+                <p>No início de outubro desse ano, foi feita uma reunião na residência do Sr. Antônio João dos Santos. Estavam presentes outros amigos e representantes do CTG Guapos da Amizade, para acertar este inventivo. Além disso, ainda no início de outubro, num baile na Sociedade Esportiva Cachoeirinha, foram feitos contatos com pessoas do comércio local para integrar-se ao movimento. A partir desse contato ficou acertada uma reunião no galpão da Choupana Imóveis para o dia 28 de outubro. No dia da reunião os integrantes do CTG Guapos da Amizade não compareceram, e depois de algumas discussões em virtude do acontecido, achou-se por bem fundar um novo CTG.</p>
+                <p>Na segunda semana depois de fundado, foi escolhido o nome CTG Rancho da Saudade, sugerido pelo prefeito da época, Sr. Francisco de Medeiros, numa homenagem ao extinto CTG que existia no município e que, por infelicidade, foi destruído por um incêndio.</p>
+                <p>O lema escolhido pelo CTG Rancho da Saudade, "Gaúcho da Ilhapa à Presilha", significa a extensão das raízes do tradicionalismo no coração dos seus associados. Ou seja, ser gaúcho de uma ponta a outra. Ilhapa, é o termo usado para uma ponta do laço, que termina em outra ponta denominada Presilha.</p>
+            </section>
+            <section id="time-line">
+                <H2>Linha do Tempo</H2>
+                <!--container impar é o container onde tem a imagem no lado esquerdo e o conteudo textual no lado direito-->
+                <div class="container-impar">
+                    <div class="container-left">
+                        <figure>
+                            <img src="../img/historia/imagem 4.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="container-right">
+                        <div class="marker-right"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                </div>
+                <!--container par é o container que tem a imagem no lago direito e do lado esquerdo todo conteudo textual-->
+                <div class="container-par">
+                    <div class="container-left">
+                        <div class="marker-left"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <figure>
+                            <img src="../img/historia/imagem 3.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!--container impar é o container onde tem a imagem no lado esquerdo e o conteudo textual no lado direito-->
+                <div class="container-impar">
+                    <div class="container-left">
+                        <figure>
+                            <img src="../img/historia/imagem 2.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="container-right">
+                        <div class="marker-right"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                </div>
+                <!--container par é o container que tem a imagem no lago direito e do lado esquerdo todo conteudo textual-->
+                <div class="container-par">
+                    <div class="container-left">
+                        <div class="marker-left"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <figure>
+                            <img src="../img/historia/imagem 6.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!--container impar é o container onde tem a imagem no lado esquerdo e o conteudo textual no lado direito-->
+                <div class="container-impar">
+                    <div class="container-left">
+                        <figure>
+                            <img src="../img/historia/imagem 1.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="container-right">
+                        <div class="marker-right"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                </div>
+                <!--container par é o container que tem a imagem no lago direito e do lado esquerdo todo conteudo textual-->
+                <div class="container-par">
+                    <div class="container-left">
+                        <div class="marker-left"></div>
+                        <div class="content">
+                            <h3>ㅤㅤ14 de Novembro de 2022</h3>
+                            <span>subtitulo</span>
+                            <p>falta o texto</p>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <figure>
+                            <img src="../img/historia/imagem 5.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <section id="footer_sub">
+                <sectio id="logo_baseborad">
+                    <figure>
+                        <img src="../img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                    </figure>
+                </sectio>
+                <section id="map_website">
+                    <section id="map_left">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Trabalhos</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </section>
+                    <section id="map_right">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">@ranchodasaudade</a></li>
+                            <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">ctgranchodasaudade</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="../img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">CTG Rancho da Saudade - Oficial</a></li>
+                            <li><a href="" target="_blank"><img src="../img/icones_redes_contato/whatsapp_icon.png" alt="">119xxxxxxxx</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section id="dev">
+                <p>Site desenvolvido por <strong>GDCAW</strong></p>
+                <p><strong>&copy; Todos direitos reservados 2022</strong></p>
+            </section>
+        </footer>
+    </main>
 
 </body>
 </html>

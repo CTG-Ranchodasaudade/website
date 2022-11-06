@@ -4,15 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/construcao.css">
+    <link rel="stylesheet" href="../css/style_main.css">
+    <link rel="stylesheet" href="../css/departamentos.css">
     <title>Document</title>
 </head>
 <body>
-    <section>
-        <figure>
-            <img src="../img/construcao.png" alt="area em construção">
-        </figure>
-        <a href="../../index.html"><button value="Voltar" type="button" onclick="">Voltar</button></a>
-    </section>
+    <main>
+        <header>
+            <section class="website_head">
+                <section id="log">
+                    <figure>
+                        <img src="../img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                    </figure>
+                    <h1>
+                        Rancho da Saudade
+                    </h1>
+                </section>
+                <section id="link">
+                    <ul>
+                        <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">
+                            <p class="name-link">@ranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">
+                            <p class="name-link">ctgranchodasaudade</p>
+                        </a></li>
+                        <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="../img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">
+                            <p class="name-link">CTG Rancho da Saudade - Oficial</p>
+                        </a></li>
+                        <li><a href="" target="_blank"><img src=../img/icones_redes_contato/whatsapp_icon.png" alt="">
+                            <p class="name-link">119xxxxxxxx</p>
+                        </a></li>
+                    </ul>
+                </section>
+            </section>
+            <nav>
+                <input type="checkbox" id="menuResp">
+                <label for="menuResp"><img id="iconResp" src="../img/menu_resp_fechado_32x32.png" alt="iconResp"></label>
+                
+                <div id="cx_nav">
+                    <ul id="menuSupense">
+                        <li class="menu"><a href="../../index.html">Home</a></li>
+                        <li class="menu"><a href="../pages/about.html">Sobre</a></li>
+                        <li class="menu" id="abrir-sub" onclick="abreMenu()" ><a href="">Departamentos</a>
+                            <ul id="menu-escondido">
+                                <li class="sub-menu"><a href="artistica.html">Artístico</a></li>
+                                <li class="sub-menu"><a href="#">Campeiro</a></li>
+                                <li class="sub-menu"> <a href="cultural.html">Cultural</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="principal">
+            <!-- Parte das Campeiro-->
+            <section class="campeiro-top">
+                <div class="tag-top"></div>
+                <h2>Cultural</h2>
+                <section class="conteudo">
+                    <p>O Departamento Cultural é responsável por desenvolver e propagar a cultura gaúcha, estabelecendo stratégia adequada ao interesse institucional e às políticas públicas para a cultura.</p>
+                    <p>Promove pesquisas, estudos, debates, conferências, seminários, cursos, simpósios, concursos e outras atividades que visem difundir e aprimorar conhecimentos sobre história, folclore, tradição, artes, artesanato e outras manifestações culturais do Rio Grande do Sul.</p>
+                    <p>Participa de eventos tradicionalistas em outras entidades e na comunidade local.</p>
+                    <p>A gestão de prendas e peões 2022/2023 foi empossada no mês de setembro/2022.</p>               
+                </section>
+            </section>
+            <section class="campeiro-Bottom background-campeiro">
+                <h2>Prêmios Cultural</h2>
+                <section id="prizes-years">
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img3.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img6.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img class="prizes-years-slogan" src="../img/section_artigos/img7.jpg" alt="">
+                    </figure>
+                </section>
+                
+                <h2>Coordenação Cultural</h2>
+                <section class="coordination">
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img1.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img2.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                    <section class="coordinators">
+                        <figure>
+                            <img src="../img/section_artigos/img3.jpg" alt="">
+                        </figure>
+                        <h4>responsavel tal</h4>
+                        <p>Fulano de tal</p>
+                    </section>
+                </section>
+                
+            </section>
+            <section class="galery">
+                <h3>Galeria</h3>
+                <section class="galery-photos">
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_cultural/departamento cultural.jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_cultural/departamento cultural (1).jpg" alt="">
+                    </figure>
+                    <figure class="galery-frame">
+                        <img class="galery-img" src="../img/departamentos/departamento_cultural/departamento cultural (2).jpg" alt="">
+                    </figure>
+                </section>
+            </section>
+        </section>
+        <footer>
+            <section id="footer_sub">
+                <sectio id="logo_baseborad">
+                    <figure>
+                        <img src="../img/logo_ranchodasaudade.png" alt="logo tipo do Rancho da Saudade">
+                    </figure>
+                </sectio>
+                <section id="map_website">
+                    <section id="map_left">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Sobre</a></li>
+                            <ul>
+                                <p class="menu_sem_action">Departamentos<p>
+                                <li class="sub-menu-inferior"><a href="artistica.html">Artístico</a></li>
+                                <li class="sub-menu-inferior"><a href="#">Campeiro</a></li>
+                                <li class="sub-menu-inferior"><a href="cultural.html">Cultural</a></li>
+                            </ul>
+                        </ul>
+                    </section>
+                    <section id="map_right">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/facebook_icon.png" alt="Icone do Facebbok para direcionamento para o facebook do rancho da saudade">@ranchodasaudade</a></li>
+                            <li><a href="https://www.instagram.com/ctgranchodasaudade/" target="_blank"><img src="../img/icones_redes_contato/instagram-icon.png" alt="Icone do INstagram para direcionamento para o instagram do rancho da saudade">ctgranchodasaudade</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCsJ2wBfnKubs2kqck0CQopg" target="_blank"><img src="../img/icones_redes_contato/youtube_icon.png" alt="Icone do Youtube para canal do rancho da saudade no You Tube">CTG Rancho da Saudade - Oficial</a></li>
+                            <li><a href="" target="_blank"><img src="../img/icones_redes_contato/whatsapp_icon.png" alt="">119xxxxxxxx</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section id="dev">
+                <p>Site desenvolvido por <strong>GDCAW</strong></p>
+                <p><strong>&copy; Todos direitos reservados 2022</strong></p>
+            </section>
+        </footer>
+    </main>
 </body>
 </html>

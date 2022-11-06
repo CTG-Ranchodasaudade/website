@@ -13,7 +13,7 @@
     padding: 40px 0px ;
 }
 
-.invernadas-top {
+.invernadas-top , .campeiro-top{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -21,7 +21,7 @@
     text-indent: 20px;
 }
 
-.invernadas-top h2{
+.invernadas-top h2, .campeiro-top h2{
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -44,7 +44,7 @@
     text-indent: 8%;
 }
 
-.invernadas-Bottom {
+.invernadas-Bottom, .campeiro-Bottom {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -58,7 +58,7 @@
     background-size: cover;
 }
 
-.invernadas-Bottom h2{
+.invernadas-Bottom h2, .campeiro-Bottom h2{
     text-align: center;
     font-size: 2rem;
     color: #fff;
@@ -151,4 +151,32 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.background-juvenil {
+    background-image: url('../img/departamentos/departamento_artístico/invernada_juvenil/invernadajuvenil-verde.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-mirim {
+    background-image: url('../img/departamentos/departamento_artístico/invernada_mirim/invernada\ mirim\ -\ verde.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-campeiro {
+    background-image: url('../img/departamentos/departamento_campeiro/departamento\ campeiro\ \(7\).jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tag-top{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #CF8E55;
 }

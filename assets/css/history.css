@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+#content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+#history h2{
+    text-align: center;
+    width: 100%;
+    font-size: 2.4rem;
+}
+
+#history p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 1.5rem;
+}
+
+/*estilização da linha do tempo*/
+
+#time-line {
+    display: flex;
+    flex-direction: column;
+    background-color: #CF8E55;
+    width: 100%;
+    align-items: center;
+}
+
+h2{
+    font-size: 2rem;    
+    margin: 30px 0;
+}
+
+/*estilização do container impar da linha do tempo*/
+.container-impar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.container-impar .container-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-left figure{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-left img {
+    width: 80%;
+    height: 80%;
+}
+
+.container-impar .container-right   {
+    width: 50%;
+    border-left: 2px solid black;
+}
+
+/*estilização do container par da linha do tempo*/
+.container-par{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+}
+
+.container-par .container-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-items: center;
+    border-left: 2px solid black;
+}
+
+.container-right figure{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right img {
+    width: 80%;
+    height: 80%;
+}
+
+.container-par .container-left   {
+    width: 50%;
+}
+
+/*estilização dos marcadores da linha do tempo*/
+.marker-right {
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    background: #000;
+    margin-top: 10px;
+    z-index: 9999;
+    margin-left: -10px;
+}   
+
+.marker-left {
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    background: #000;
+    margin-top: 10px;
+    z-index: 9999;
+    right: 49.5%;
+}   
+
+/*estilização do conteudo textual*/
+span{
+    color: rgb(66, 64, 64);  
+}
+/*estilização do conteudo textual do container impar*/
+
+.container-right .content span{
+    display: flex;
+    padding-left: 40px;  
+}
+
+.container-right .content p {
+     padding-left: 40px;
+    margin-top: 30px;
+}
+/*estilização do conteudo textual do container par*/
+.container-left .content h3{
+    text-align: end;
+    padding-right: 40px;
+}
+
+.container-left .content span{
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;  
+}
+
+.container-left .content p {
+    text-align: end;
+    padding-right: 40px;
+    margin-top: 30px;
+}
