@@ -6,11 +6,23 @@
     align-items: center;
 }
 
+#container_init{
+    display: block;
+    width: 90%;
+    background-color: #CF8E55;
+}
+
+#container_init img{
+    width: 100%;
+}
+
+
 #history {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 #history h2{

@@ -188,7 +188,7 @@ p{
     padding: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 2px;
+    border-radius: 2%;
 }
 
 .apresentacao h2{
@@ -310,6 +310,7 @@ p{
     background-color: #CF8E55;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
 }
 
   /* Slider */

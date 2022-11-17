@@ -68,8 +68,8 @@
 }
 
 #prizes-years {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 90%;
     align-self: center;
 }
@@ -79,7 +79,7 @@
 }
 
 .prizes-years-slogan {
-    width: 50%;
+    width: 80%;
 }
 
 .coordination{
@@ -171,6 +171,12 @@
 
 .background-campeiro {
     background-image: url('../img/departamentos/departamento_campeiro/departamento\ campeiro\ \(7\).jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-xiru {
+    background-image: url('../img/departamentos/departamento_artístico/invernada_xirú/invernada_xirú-verde.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
